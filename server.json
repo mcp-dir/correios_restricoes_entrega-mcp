@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/correios_restricoes_entrega-mcp",
+  "title": "Correios: Entrega Diferenciada",
+  "description": "Correios: Entrega Diferenciada, official-source lookup. Platform-hosted, pay per query with prepaid ",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/correios_restricoes_entrega-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_correios_restricoes_entrega"
+    }
+  ]
+}
